@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; 
+}
+
+.starbucks{
+    width: 340px; /*Largura */
+}
+
+body{
+    padding-top: 20px; /*Padding espaçamento interno */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*Espaço entre */
+}
+
+.caixa-texto{
+    width: 600px;
+}
+
+h1{
+    color: #333;
+    font-size: 60px; /*Tamanho da font*/
+    font-weight: bold; /*Grossura da font*/
+}
+
+span{
+    color: #017143;
+    font-size: 70px;
+    font-weight: 600px;
+}
+
+p{
+    font-size: 16px;
+}
+
+button{
+    background: #017143;
+    color: #ffffff;
+    border-radius: 40px; /*Arredondamento das bordas*/
+    border: none;
+    padding: 10px; /*Espaçamento Interno*/
+    margin-top: 20px ; /*Espaçamento Externo*/
+    cursor: pointer; /*Muda o ponteiro do mouse*/
+    transition: 0.5s; /*Transição do efeito*/
+}
+
+button:hover{
+    background: #018950;
+}
+
+.caixa-imagem{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px ;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu{
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-menu:hover{
+    transform: translateY(-30px);
+}
+
+.circulo{
+    height: 100%;
+    width: 100%;
+    background-color: #017143;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
